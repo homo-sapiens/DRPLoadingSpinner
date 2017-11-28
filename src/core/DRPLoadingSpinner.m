@@ -71,12 +71,7 @@
     
     self.drawTimingFunction = [DRPLoadingSpinnerTimingFunction easeInOut];
     
-    self.colorSequence = @[
-        [UIColor redColor],
-        [UIColor orangeColor],
-        [UIColor purpleColor],
-        [UIColor blueColor]
-    ];
+    self.colorSequence = @[[UIColor clearColor]];
     
     self.backgroundRailLayer.fillColor = [UIColor clearColor].CGColor;
     self.backgroundRailLayer.strokeColor = [UIColor clearColor].CGColor;
