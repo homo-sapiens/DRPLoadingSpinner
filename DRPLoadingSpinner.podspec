@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
   s.author       = { "Justin Hill" => "jhill.d@gmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/justindhill/DRPLoadingSpinner.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/homo-sapiens/DRPLoadingSpinner.git", :tag => s.version }
 
   s.default_subspec = 'core'
   s.subspec 'core' do |core|
